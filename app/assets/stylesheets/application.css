@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require scrivito_text_image_widget
  *= require scrivito
  *= require_tree .
  *= require_self

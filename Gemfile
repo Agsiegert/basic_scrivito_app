@@ -54,3 +54,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'scrivito', '~> 1.11.0'
+gem 'scrivito_text_image_widget'
