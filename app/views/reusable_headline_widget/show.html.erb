@@ -1,0 +1,6 @@
+<% if widget.reusable_headline.blank? %>
+  <strong>Please select a Reusable Headline</strong>
+  <%= scrivito_tag :div, widget, :reusable_headline %>
+<% else %>
+  <%= scrivito_tag :span, widget.reusable_headline, :headline %>
+<% end %>

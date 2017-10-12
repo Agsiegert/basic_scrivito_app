@@ -1,0 +1,11 @@
+<%= scrivito_medium_dialog do %>
+  <%= scrivito_details_for ReusableHeadlineWidget.description_for_editor do %>
+    <%= scrivito_tag :div, widget, :reusable_headline do %>
+      <% if widget.reusable_headline %>
+        <%= widget.reusable_headline.headline %>
+      <% else %>
+        Please select a reusable headline
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
