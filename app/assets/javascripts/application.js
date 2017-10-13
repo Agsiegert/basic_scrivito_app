@@ -14,3 +14,4 @@
 //= require jquery_ujs
 //= require scrivito
 //= require_tree .
+//= require scrivito-image.js
